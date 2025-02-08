@@ -1,0 +1,75 @@
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --grayish-blue: hsl(227, 10%, 46%);
+    --dark-grey: hsl(0, 0%, 59%);
+}
+
+.kumbh-sans {
+    font-family: "Kumbh Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+.kumbh-sans-heavy {
+    font-family: "Kumbh Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+body {
+    background: url(../images/bg-pattern-top.svg) left bottom, url(../images/bg-pattern-bottom.svg) right top;
+    background-repeat: no-repeat;
+    background-color: var(--dark-cyan);
+}
+
+main {
+    display: flex;
+    font-size: 18px;
+}
+
+article {
+    margin: 5vh 1vw; /* Centering for easier viewing, adjust according to your project.*/
+    min-width: 325px;
+    max-width: 450px;
+    min-height: 390px;
+    background-color: white;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+article > div {
+    margin: 5%;
+}
+
+img {
+    border-radius: 3rem;
+    outline: 6px solid white;
+}
+
+p {
+    font-size: 14px;
+    color: var(--dark-grey);
+}
+
+#userName {
+    font-size: 32px;
+}
+
+#userAge{
+    font-size: 28px;
+    color: var(--dark-grey);
+}
+
+#location {
+    font-size: 14px;
+    color: var(--dark-grey);
+}
